@@ -80,6 +80,9 @@
 #Title{  
   font-size:1.9rem;
   }
+  .Nav_Item .links #Nav_links{  
+    color:#ffffff;
+  }
 }
 .Outer{
   width:100%;

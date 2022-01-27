@@ -101,7 +101,7 @@ return (
               id="font"
               className="nav_active"         
             >
-            PROTFOLIO
+            PORTFOLIO
             </Typography>
           </a>
         </Box>
