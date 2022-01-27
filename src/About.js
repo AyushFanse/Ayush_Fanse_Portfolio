@@ -29,7 +29,7 @@ function About() {
                                     <h3 className=" Timeline_underline timeline_Date">2021 - 2022</h3>
                                     <h4 className="subheading">Present</h4>
                                 </div>
-                                <div className="timeline_body"><p className="text-muted">Recently I Have Completed the  <span className="hightlight Timeline_underline">Full (MERN) Stack Web Development</span> course at  <span className="hightlight">GUVI</span>. Now I am certified  <span className="hightlight">Full Stack Developer</span>, ready to explore the new phase of my career.</p></div>
+                                <div className="timeline_body"><p className="text-muted">I Have Completed the  <span className="hightlight Timeline_underline">Full (MERN) Stack Web Development</span> course at  <span className="hightlight">GUVI</span>. Now I am certified  <span className="hightlight">Full Stack Developer</span>, ready to explore the new phase of my career.</p></div>
                             </div>
                         </li>
                         <br/>

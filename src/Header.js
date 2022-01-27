@@ -151,7 +151,7 @@ return (
         <Box >
           <Tooltip title="Open settings">
             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-            <MenuIcon  sx={{ display: { xs: 'flex', md: 'none' } }}/>
+            <MenuIcon  sx={{ display: { color: "white", xs: 'flex', md: 'none' } }}/>
             </IconButton>
           </Tooltip>
           <Menu

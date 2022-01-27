@@ -354,7 +354,8 @@
   margin: auto;
   text-transform:capitalize; 
   font-family:  'Luxurious Roman', cursive;
-  color:var(--white)
+  color:var(--white);
+  letter-spacing: 0.075em;
 }
 #icons{  
   color: var(--parrot);
@@ -367,6 +368,7 @@
 #FooterName{  
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.3));
 }
+@media(min-width:768px){
 #footerOut ul li:hover div #icons{
   transition: all 0.7s;
   animation: icons 0.3s linear forwards;
@@ -384,7 +386,14 @@
 #footerOut ul li:hover h6{
   display:none;
 }
-
+}
+@media (max-width:768px){  
+  #footerOut ul li h6{
+    font-size:0.8rem;
+    width: max-content;
+    margin: auto 20px;
+  }
+}
 /*/--------------------------* Project Of Portfolio *--------------------------/*/
 #ProjectOut{
 	margin: 0;
@@ -684,6 +693,9 @@
     display: flex;
     justify-content: center;
     padding:25px;
+  }  
+  #skillIcons{ 
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.5);
   }
 }
 #skillName{
@@ -691,12 +703,16 @@
   font-family:'Montserrat', sans-serif;
   filter: drop-shadow(2px 2px 10px rgb(0, 0, 0));
 }
+@media (min-width: 768px){
+  #skillIcons{ 
+    box-shadow: 22px 22px 55px rgba(0,0,0,0.5);
+  }
+}
 #skillIcons{  
   background: rgba(255,255,255,0.1);
   backdrop-filter: blur(10px);
   padding:10px;
   border-radius: 10px;
-  box-shadow: 22px 22px 55px rgba(0,0,0,0.5);
   filter: drop-shadow(2px 2px 6px rgb(0, 0, 0)) ;
 }
 
