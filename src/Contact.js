@@ -24,8 +24,8 @@ function Contact() {
                             </Grid>
                             <Grid id="Contact_footerOut">
                             <ul>
-                                <li>
-                                    <div data-aos="slide-right">
+                                <li data-aos="slide-right">
+                                    <div>
                                         <a className="links hover" rel="noreferrer" href="https://github.com/AyushFanse" target="_blank">
                                             <GitHubIcon id="Contact_icons"/>
                                         </a>
@@ -34,8 +34,8 @@ function Contact() {
                                         GitHub
                                     </h6>
                                 </li>
-                                <li>
-                                    <div data-aos="slide-right">
+                                <li data-aos="slide-right">
+                                    <div>
                                         <a className="links hover" rel="noreferrer" href="https://www.linkedin.com/in/ayush-fanse-4987a21b3" target="_blank">
                                             <LinkedInIcon id="Contact_icons"/>
                                         </a>
@@ -44,8 +44,8 @@ function Contact() {
                                         LinkedIn
                                     </h6>
                                 </li>
-                                <li>
-                                    <div data-aos="slide-right">
+                                <li data-aos="slide-right">
+                                    <div>
                                         <a className="links hover" rel="noreferrer" download="download" href="https://drive.google.com/file/d/1C25JOP3SEw2kRbsJ9XKBWtyAZiuqpBHL/view?usp=sharing" target="_blank">
                                             <ArticleIcon id="Contact_icons"/>
                                         </a>
