@@ -72,7 +72,8 @@ return (
                 <div className="Mycontainer">
                 {
                     MyProjects.map((project)=>(
-                        <Tilt key={project.title} style={{ background: 'rgb(0, 0, 0,0)',width: "280px",height: "100%",maxHeight: "450px", padding: "-10px 20px 0 20px",margin: "50px 0",boxShadow: '0px 0px 0px 0px'}}>
+                      <box id="boxing">
+                        <Tilt key={project.title} style={{ background: 'rgb(0, 0, 0,0)',width: "100%",height: "100%",maxHeight: "450px", margin: "50px 0",boxShadow: '0px 0px 0px 0px'}}>
                             <div id="box"  data-aos="slide-up">
                                 <div className="imgBx">                                
                                     <img src={"Media/" + project.files[0].imgpath} alt="Profile_Image" id="project_Img"/>
@@ -89,6 +90,7 @@ return (
                                 </div>
                             </div>  
                         </Tilt> 
+                        </box>
                     ))
                 }
                 </div>

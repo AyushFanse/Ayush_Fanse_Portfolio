@@ -99,8 +99,7 @@ return (
               variant="h6"
               component="div"
               id="font"
-              className="nav_active"    
-              data-aos="slide-left"            
+              className="nav_active"         
             >
             PROTFOLIO
             </Typography>
@@ -113,7 +112,6 @@ return (
               onClick={handleCloseUserMenu}
               sx={{ display: 'block', }}
               id="fonts"
-               data-aos="slide-left" 
               className=" About"
               >
                   About
@@ -124,7 +122,6 @@ return (
               onClick={handleCloseUserMenu}
               sx={{ display: 'block', }}
               id="fonts"
-               data-aos="slide-left" 
               className=" Skills"
               >
                 Skills
@@ -135,7 +132,6 @@ return (
               onClick={handleCloseUserMenu}
               sx={{ display: 'block', }}
               id="fonts"
-               data-aos="slide-left" 
               className=" Projects"
               >
                 Projects
@@ -146,7 +142,6 @@ return (
               onClick={handleCloseUserMenu}
               sx={{ display: 'block', }}
               id="fonts"
-               data-aos="slide-left" 
               className=" contact"
               >
                 Contact Me
