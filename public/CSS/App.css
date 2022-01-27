@@ -74,11 +74,14 @@
     width:100%;
   }
   
-.Link_Icon{
-  font-size: 1rem;
-}
-#Title{  
-  font-size:1.9rem;
+  .Link_Icon{
+   font-size: 1rem;
+  }
+  #Title{  
+   font-size:1.9rem;
+  }	
+  .Nav_Item .links #Nav_links{  
+    color:#ffffff;
   }
   .Nav_Item .links #Nav_links{  
     color:#ffffff;
