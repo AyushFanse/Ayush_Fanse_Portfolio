@@ -19,7 +19,7 @@ function Contact() {
                             <Grid id="Contact_Info">
                                 <p className="contactDetails" id="FooterName" data-aos="slide-up"><span>Email :</span> &nbsp; <span> ayush.fanse@gmail.com</span></p>
                                 <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Contact No. :</span>&nbsp;<span> +91-8483868279</span></p>
-                                <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Address :</span>&nbsp;<span> 3031, Fanse Building, near Somgiri Matth, Bhoi Lane, Yeola, Dist: Nashik. </span></p>
+                                <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Address :</span>&nbsp;<span> 3031, Fanse Building, near Janglidas Maharaj Matth, Bhoi Lane, Yeola, Dist: Nashik. </span></p>
                                 <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Insta Id :</span>&nbsp;<span> __.prince_2.__ </span></p>
                             </Grid>
                             <Grid id="Contact_footerOut">
