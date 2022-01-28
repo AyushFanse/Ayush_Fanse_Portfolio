@@ -46,7 +46,7 @@ function Contact() {
                                 </li>
                                 <li data-aos="slide-right">
                                     <div>
-                                        <a className="links hover" rel="noreferrer" download="download" href="https://drive.google.com/file/d/16vugqIGqaevB0MUrTdHVMXyAY-JRPaJo/view?usp=sharing" target="_blank">
+                                        <a className="links hover" rel="noreferrer" download="download" href="https://drive.google.com/drive/folders/1iiVzZXIdACduC3j2ZHKiUJnIhL-wO8lb?usp=sharing" target="_blank">
                                             <ArticleIcon id="Contact_icons"/>
                                         </a>
                                     </div>
