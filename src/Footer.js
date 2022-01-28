@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
+
 function Footer(props) {
     return (
         <Box id="footerBody">
