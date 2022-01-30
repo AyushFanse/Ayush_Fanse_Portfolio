@@ -17,7 +17,7 @@ function Skills() {
                             <a href={skill.link} rel="noreferrer" target="_blank">
                                 <img id="skillIcons" width="100" height="100" src={skill.skill_img} alt="skill"/>
                             </a>
-                            <p id="skillName">{skill.name}</p>
+                            <a id="skillName" href={skill.link} rel="noreferrer" target="_blank">{skill.name}</a>
                         </div>
                     ))
                 }

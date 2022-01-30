@@ -11,10 +11,10 @@ function About() {
             <Box id="TimeLine">
                 <Grid id="TimeLine_Out">
                     <ul className="timeline">
-                        <li className="timeline_list" data-aos="slide-right">
+                        <li className="timeline_list cursor" data-aos="slide-right">
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h3 className=" Timeline_underline timeline_Date">2017 - 2021</h3>
+                                    <h3 className=" Timeline_underline timeline_Date cursor">2017 - 2021</h3>
                                     <h4 className="subheading">Graduation</h4>
                                 </div>
                                 <div className="timeline_body"><p className="text-muted">I have completed my <span className="hightlight ">Bachelor Of Engineering</span> In <span className="hightlight ">Electronics and Telecommunication</span> from <span className="hightlight Timeline_underline">Sinhgad Institute of Technology and Science, Narhe</span> under <span className="hightlight Timeline_underline">Savitribai Phule Pune University</span>.</p></div>
@@ -23,7 +23,7 @@ function About() {
                         <br/>
                         <hr/>
                         <br/>
-                        <li className="timeline_list" data-aos="slide-right">
+                        <li className="timeline_list cursor" data-aos="slide-right">
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h3 className=" Timeline_underline timeline_Date">2021 - 2022</h3>
@@ -35,7 +35,7 @@ function About() {
                         <br/>
                         <hr/>
                         <br/>
-                        <li className="timeline_list" data-aos="slide-right">
+                        <li className="timeline_list cursor" data-aos="slide-right">
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
                                     <h3 className=" Timeline_underline timeline_Date">More</h3>

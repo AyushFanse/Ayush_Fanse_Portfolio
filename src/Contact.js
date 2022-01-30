@@ -15,7 +15,7 @@ function Contact() {
                 <hr/>
                 <Grid  id="ContactData">
                     <Grid id="Contact_Footer">
-                        <Box id="Contact_footerBody">
+                        <Box id="Contact_footerBody" className="cursor">
                             <Grid id="Contact_Info">
                                 <p className="contactDetails" id="FooterName" data-aos="slide-up"><span>Email :</span> &nbsp; <span> ayush.fanse@gmail.com</span></p>
                                 <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Contact No. :</span>&nbsp;<span> +91-8483868279</span></p>
@@ -27,7 +27,7 @@ function Contact() {
                                 <li data-aos="slide-right">
                                     <div>
                                         <a className="links hover" rel="noreferrer" href="https://github.com/AyushFanse" target="_blank">
-                                            <GitHubIcon id="Contact_icons"/>
+                                            <GitHubIcon id="Contact_icons" />
                                         </a>
                                     </div>
                                     <h6 id="FooterName">
@@ -37,7 +37,7 @@ function Contact() {
                                 <li data-aos="slide-right">
                                     <div>
                                         <a className="links hover" rel="noreferrer" href="https://www.linkedin.com/in/ayush-fanse-4987a21b3" target="_blank">
-                                            <LinkedInIcon id="Contact_icons"/>
+                                            <LinkedInIcon id="Contact_icons" />
                                         </a>
                                     </div>
                                     <h6 id="FooterName">
@@ -47,7 +47,7 @@ function Contact() {
                                 <li data-aos="slide-right">
                                     <div>
                                         <a className="links hover" rel="noreferrer" download="download" href="https://drive.google.com/file/d/1UiXsx0UzmdBifnekzkWxYP8HEDlB454q/view?usp=sharing" target="_blank">
-                                            <ArticleIcon id="Contact_icons"/>
+                                            <ArticleIcon id="Contact_icons" />
                                         </a>
                                     </div>
                                     <h6 id="FooterName">
