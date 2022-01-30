@@ -4,7 +4,7 @@
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
         "tools":"React, CSS, MUI, NodeJS, MongoDB Atlas",
         "discription":"RECIPES is the website where all kind of people can come and share their special recipe which can help other peoples to cook some testy food any time they want.",
-        "site_link":"https://recipe-website-app-v1.herokuapp.com"
+        "site_link":"https://recipes-website-app.herokuapp.com"
     },
     {        
         "title":"E-Commerce website",
