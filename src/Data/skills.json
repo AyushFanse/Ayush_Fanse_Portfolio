@@ -35,8 +35,28 @@
         "link":"https://nodejs.org/en/"
     },
     {
+        "name":"Express",
+        "skill_img":"Media/My-Skills/express.png",
+        "link":"https://expressjs.com/"
+    },
+    {
         "name":"MongoDB",
         "skill_img":"Media/My-Skills/mongo.png",
         "link":"https://www.mongodb.com/cloud/atlas/register"
+    },
+    {
+        "name":"Postman",
+        "skill_img":"Media/My-Skills/postman.png",
+        "link":"https://www.postman.com/"
+    },
+    {
+        "name":"NPM",
+        "skill_img":"Media/My-Skills/npm.png",
+        "link":"https://www.npmjs.com/"
+    },
+    {
+        "name":"Yarn",
+        "skill_img":"Media/My-Skills/yarn.png",
+        "link":"https://yarnpkg.com/"
     }
 ]
