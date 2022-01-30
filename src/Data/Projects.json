@@ -32,6 +32,6 @@
         "files":[{"imgpath":"Upgrade-Plan-Card/Upgrade-Plan-Card.png"}],
         "tools":"React, CSS, Bootstrap, JavaScript",
         "discription":"Here I have created the beautiful animations for the upgread plan cards.",
-        "site_link":"https://recipe-website-app-v1.herokuapp.com/"
+        "site_link":"https://upgrade-plan-cards.netlify.app"
     }
 ]
