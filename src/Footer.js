@@ -5,6 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
 import ConnectWithoutContactIcon from '@mui/icons-material/ConnectWithoutContact';
 
+
 function Footer(props) {
     return (
         <Box id="footerBody">
@@ -42,7 +43,7 @@ function Footer(props) {
                     </li>
                     <li>
                         <div>
-                            <a className="links" rel="noreferrer" download="download" href="https://drive.google.com/file/d/16vugqIGqaevB0MUrTdHVMXyAY-JRPaJo/view?usp=sharing" target="_blank">
+                            <a className="links" rel="noreferrer" download="download" href="https://drive.google.com/file/d/1UiXsx0UzmdBifnekzkWxYP8HEDlB454q/view?usp=sharing" target="_blank">
                                 <ArticleIcon id="icons"/>
                             </a>
                         </div>
