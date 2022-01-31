@@ -2,35 +2,35 @@
     {        
         "title":"Recipes",
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
-        "tools":"React, CSS, MUI, NodeJS, MongoDB Atlas",
+        "tools":"React, CSS, MUI, BootStrap, NodeJS, MongoDB Atlas",
         "discription":"RECIPES is the website where all kind of people can come and share their special recipe which can help other peoples to cook some testy food any time they want.",
         "site_link":"https://recipes-website-app.herokuapp.com"
     },
     {        
         "title":"E-Commerce website",
         "files":[{"imgpath":"E-Commerce-Website/E-Commerce-Website.png"}],
-        "tools":"React, CSS, MUI, NodeJS, MongoDB Atlas",
+        "tools":"React, CSS, MUI, BootStrap, NodeJS, MongoDB Atlas",
         "discription":"Mobile shop wbsite for lerning purpose.",
         "site_link":"https://ayushe-e-commerce-website.netlify.app"
     },
     {        
         "title":"Weather Forecasting",
         "files":[{"imgpath":"Weather-Forecasting/Weather-Forecasting(1).png"}, {"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}],
-        "tools":"React, CSS, MUI, NodeJS, MongoDB Atlas",
+        "tools":"HTML, CSS, MUI, BootStrap",
         "discription":"Live Weather Forecasting website.",
         "site_link":"https://ayush-weather-forecasting.netlify.app"
     },
     {        
         "title":"Animeflex",
         "files":[{"imgpath":"Animeflex/Animeflex(1).png"}, {"imgpath":"Animeflex/Animeflex(2).png"}],
-        "tools":"React, CSS, Bootstrap, JavaScript",
+        "tools":"HTML, CSS, Bootstrap, JavaScript",
         "discription":"Animeflex website contains information about all of the animes.",
         "site_link":"https://ayush-animeflix.netlify.app"
     },
     {        
         "title":"Upgrade Plan Cards",
         "files":[{"imgpath":"Upgrade-Plan-Card/Upgrade-Plan-Card.png"}],
-        "tools":"React, CSS, Bootstrap, JavaScript",
+        "tools":"HTML, CSS, JavaScript",
         "discription":"Here I have created the beautiful animations for the upgread plan cards.",
         "site_link":"https://upgrade-plan-cards.netlify.app"
     }
