@@ -15,14 +15,14 @@
         "link":"https://www.javascript.com/"
     },
     {
-        "name":"ReactJS",
-        "skill_img":"Media/My-Skills/react.png",
-        "link":"https://reactjs.org/"
-    },
-    {
         "name":"Bootstrap",
         "skill_img":"Media/My-Skills/bootstrap.png",
         "link":"https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+    },
+    {
+        "name":"ReactJS",
+        "skill_img":"Media/My-Skills/react.png",
+        "link":"https://reactjs.org/"
     },
     {
         "name":"Material-UI",
