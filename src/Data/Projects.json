@@ -16,7 +16,7 @@
     {        
         "title":"Weather Forecasting",
         "files":[{"imgpath":"Weather-Forecasting/Weather-Forecasting(1).png"}, {"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}],
-        "tools":"HTML, CSS, MUI, BootStrap, JavaScript",
+        "tools":"HTML, CSS, MDB, BootStrap, JavaScript",
         "discription":"Live Weather Forecasting website.",
         "site_link":"https://ayush-weather-forecasting.netlify.app"
     },
