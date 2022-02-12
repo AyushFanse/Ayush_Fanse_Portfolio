@@ -43,7 +43,7 @@ function Footer(props) {
                     </li>
                     <li>
                         <div>
-                            <a className="links" rel="noreferrer" download="download" href="https://drive.google.com/file/d/18vG_TCYam37u6LHWKVEwAUI_EidE5bcB/view?usp=sharing" target="_blank">
+                            <a className="links" rel="noreferrer" download="download" href="https://drive.google.com/file/d/1rW6F8zuv4EoSTcyvt_3hcY2wXfrN_X9e/view?usp=sharing" target="_blank">
                                 <ArticleIcon id="icons"/>
                             </a>
                         </div>
