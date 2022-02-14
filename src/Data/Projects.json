@@ -28,7 +28,7 @@
     },
     {        
         "title":"Animeflex",
-        "files":[{"imgpath":"Animeflex/Animeflex(1).png"}, {"imgpath":"Animeflex/Animeflex(2).png"}],
+        "files":[{ "imgpath":"Animeflex/Animeflex(1).png" }, { "imgpath":"Animeflex/Animeflex(2).png" }],
         "tools":"HTML, CSS, Bootstrap, JavaScript",
         "discription":"Animeflex website contains updates about all of the animes.",
         "site_link":"https://ayush-animeflix.netlify.app",
