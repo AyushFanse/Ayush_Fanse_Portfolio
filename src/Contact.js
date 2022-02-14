@@ -16,7 +16,6 @@ function Contact() {
                 <hr/>
                 <Grid  id="ContactData">
                     <Grid id="Contact_Footer">
-<<<<<<< HEAD
                         {
                             MyData.map((mydata)=>(
                                 <Box id="Contact_footerBody" className="cursor">
@@ -62,50 +61,6 @@ function Contact() {
                                 </Box>
                             ))
                         }
-=======
-                        <Box id="Contact_footerBody" className="cursor">
-                            <Grid id="Contact_Info">
-                                <p className="contactDetails" id="FooterName" data-aos="slide-up"><span>Email :</span> &nbsp; <span> ayush.fanse@gmail.com</span></p>
-                                <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Contact No. :</span>&nbsp;<span> +91-8483868279</span></p>
-                                <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Address :</span>&nbsp;<span> 3031, Fanse Building, near Janglidas Maharaj Matth, Bhoi Lane, Yeola, Dist: Nashik. </span></p>
-                                <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Insta Id :</span>&nbsp;<span> __.prince_2.__ </span></p>
-                            </Grid>
-                            <Grid id="Contact_footerOut">
-                            <ul>
-                                <li data-aos="slide-right">
-                                    <div>
-                                        <a className="links hover" rel="noreferrer" href="https://github.com/AyushFanse" target="_blank">
-                                            <GitHubIcon id="Contact_icons" />
-                                        </a>
-                                    </div>
-                                    <h6 id="FooterName">
-                                        GitHub
-                                    </h6>
-                                </li>
-                                <li data-aos="slide-right">
-                                    <div>
-                                        <a className="links hover" rel="noreferrer" href="https://www.linkedin.com/in/ayush-fanse-4987a21b3" target="_blank">
-                                            <LinkedInIcon id="Contact_icons" />
-                                        </a>
-                                    </div>
-                                    <h6 id="FooterName">
-                                        LinkedIn
-                                    </h6>
-                                </li>
-                                <li data-aos="slide-right">
-                                    <div>
-                                        <a className="links hover" rel="noreferrer" download="download" href="https://drive.google.com/file/d/1rW6F8zuv4EoSTcyvt_3hcY2wXfrN_X9e/view?usp=sharing" target="_blank">
-                                            <ArticleIcon id="Contact_icons" />
-                                        </a>
-                                    </div>
-                                    <h6 id="FooterName">
-                                        Resume
-                                    </h6>
-                                </li>
-                            </ul>
-                            </Grid>
-                        </Box>
->>>>>>> df93516dd6480d0f6a50d3e6e1c4edf68973917c
                     </Grid>
                 </Grid>
             </div>

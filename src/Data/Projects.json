@@ -2,22 +2,15 @@
     {        
         "title":"Recipes",
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
-<<<<<<< HEAD
         "tools":"React-Native, React, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
         "discription":"In RECIPES website, one can share their recipes with others.",
         "site_link":"https://recipes-website-app.herokuapp.com",
         "frontend":"https://github.com/AyushFanse/RECIPE-PROJECT",
         "backend":"https://github.com/AyushFanse/RECIPE-Backend"
-=======
-        "tools":"React, React-Native, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
-        "discription":"RECIPES is the website where all kind of people can come and share their special recipe which can help other peoples to cook some testy food any time they want.",
-        "site_link":"https://recipes-website-app.herokuapp.com"
->>>>>>> df93516dd6480d0f6a50d3e6e1c4edf68973917c
     },
     {        
         "title":"E-Commerce website",
         "files":[{"imgpath":"E-Commerce-Website/E-Commerce-Website.png"}],
-<<<<<<< HEAD
         "tools":"React-Native, React, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
         "discription":"E-Commerce website containts all kind of mobile brands.",
         "site_link":"https://ayushe-e-commerce-website.netlify.app",
@@ -32,18 +25,6 @@
         "site_link":"https://live-weather-forecasting.netlify.app",
         "frontend":"https://github.com/AyushFanse/WeatherFFront",
         "backend":"https://github.com/AyushFanse/WeatherFBackEnd"
-=======
-        "tools":"React, React-Native, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
-        "discription":"Mobile shop wbsite for lerning purpose.",
-        "site_link":"https://ayushe-e-commerce-website.netlify.app"
-    },
-    {        
-        "title":"Weather Forecasting",
-        "files":[{"imgpath":"Weather-Forecasting/Weather-Forecasting(1).png"}, {"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}],
-        "tools":"React, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
-        "discription":"Live Weather Forecasting website.",
-        "site_link":"https://live-weather-forecasting.netlify.app"
->>>>>>> df93516dd6480d0f6a50d3e6e1c4edf68973917c
     },
     {        
         "title":"Animeflex",
