@@ -2,36 +2,37 @@
     {        
         "title":"Recipes",
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
-        "tools":"React, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
-        "discription":"RECIPES is the website where all kind of people can come and share their special recipe which can help other peoples to cook some testy food any time they want.",
-        "site_link":"https://recipes-website-app.herokuapp.com"
+        "tools":"React-Native, React, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
+        "discription":"In RECIPES website, one can share their recipes with others.",
+        "site_link":"https://recipes-website-app.herokuapp.com",
+        "frontend":"https://github.com/AyushFanse/RECIPE-PROJECT",
+        "backend":"https://github.com/AyushFanse/RECIPE-Backend"
     },
     {        
         "title":"E-Commerce website",
         "files":[{"imgpath":"E-Commerce-Website/E-Commerce-Website.png"}],
-        "tools":"React, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
-        "discription":"Mobile shop wbsite for lerning purpose.",
-        "site_link":"https://ayushe-e-commerce-website.netlify.app"
+        "tools":"React-Native, React, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
+        "discription":"E-Commerce website containts all kind of mobile brands.",
+        "site_link":"https://ayushe-e-commerce-website.netlify.app",
+        "frontend":"https://github.com/AyushFanse/E-commerce-MoboShop-Frontend",
+        "backend":"https://github.com/AyushFanse/E-commerce-MoboShop-Backend"
     },
     {        
         "title":"Weather Forecasting",
-        "files":[{"imgpath":"Weather-Forecasting/Weather-Forecasting(1).png"}, {"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}],
-        "tools":"HTML, CSS, MUI, BootStrap, JavaScript",
-        "discription":"Live Weather Forecasting website.",
-        "site_link":"https://ayush-weather-forecasting.netlify.app"
+        "files":[{"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}, {"imgpath":"Weather-Forecasting/Weather-Forecasting(2).png"}],
+        "tools":"React, CSS, MUI, BootStrap, JavaScript, NodeJS, NPM, MongoDB Atlas",
+        "discription":"Weather Forecasting website shows the latest updated weather forecast.",
+        "site_link":"https://live-weather-forecasting.netlify.app",
+        "frontend":"https://github.com/AyushFanse/WeatherFFront",
+        "backend":"https://github.com/AyushFanse/WeatherFBackEnd"
     },
     {        
         "title":"Animeflex",
         "files":[{"imgpath":"Animeflex/Animeflex(1).png"}, {"imgpath":"Animeflex/Animeflex(2).png"}],
         "tools":"HTML, CSS, Bootstrap, JavaScript",
-        "discription":"Animeflex website contains information about all of the animes.",
-        "site_link":"https://ayush-animeflix.netlify.app"
-    },
-    {        
-        "title":"Upgrade Plan Cards",
-        "files":[{"imgpath":"Upgrade-Plan-Card/Upgrade-Plan-Card.png"}],
-        "tools":"HTML, CSS, JavaScript",
-        "discription":"Here I have created the beautiful animations for the upgread plan cards.",
-        "site_link":"https://upgrade-plan-cards.netlify.app"
+        "discription":"Animeflex website contains updates about all of the animes.",
+        "site_link":"https://ayush-animeflix.netlify.app",
+        "frontend":"https://github.com/AyushFanse/ANIMEFLIX",
+        "backend":""
     }
 ]

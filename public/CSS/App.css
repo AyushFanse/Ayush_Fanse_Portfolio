@@ -522,9 +522,9 @@
 {
 	text-decoration: none;
 	background: var(--white);
-  border: 1.5px solid #fff;
+  border: 1.5px solid rgb(155, 149, 149);
   box-shadow: 4px 4px 15px rgba(0,0,0,0.5), 
-              inset 0px 0px 15px #00000096;
+              inset 0px 0px 15px #ffffff96;
   border-radius:8px;
 	color: #20221d;
   font-size:0.9rem;
@@ -669,7 +669,13 @@
   font-size: 1.3rem;
 }
 }     
-
+.DilogButton{
+  margin: 7px 30px;
+	padding: 0;
+  font-weight: 700;
+  text-transform: uppercase; 
+  font-family:'Montserrat', sans-serif
+}
 /*/--------------------------* Skills Of Portfolio *--------------------------/*/
 
 #skill-container{
