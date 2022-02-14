@@ -13,11 +13,11 @@ function Skills() {
                 <Grid id="inner-skill-container">
                 {
                     My_Skills.map((skill)=>(
-                        <div id="contSkills" key={ skill.name } data-aos="slide-up">
-                            <a href={ skill.link } rel="noreferrer" target="_blank">
-                                <img id="skillIcons" width="100" height="100" src={ skill.skill_img } alt="skill"/>
+                        <div id="contSkills" key={skill.name} data-aos="slide-up">
+                            <a href={skill.link} rel="noreferrer" target="_blank">
+                                <img id="skillIcons" width="100" height="100" src={skill.skill_img} alt="skill"/>
                             </a>
-                            <a id="skillName" href={ skill.link } rel="noreferrer" target="_blank">{ skill.name }</a>
+                            <a id="skillName" href={skill.link} rel="noreferrer" target="_blank">{skill.name}</a>
                         </div>
                     ))
                 }
