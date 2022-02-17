@@ -38,10 +38,22 @@ function About() {
                         <li className="timeline_list cursor" data-aos="slide-right">
                             <div className="timeline-panel">
                                 <div className="timeline-heading">
-                                    <h3 className=" Timeline_underline timeline_Date">More</h3>
-                                    <h4 className="subheading">Keen Interest in</h4>
+                                    <h3 className=" Timeline_underline timeline_Date">More tech</h3>
+                                    <h4 className="subheading">Known and learning tech</h4>
                                 </div>
-                                <div className="timeline_body"><p className="text-muted">Python, Angular, Kotlin, C++, C, Java, Android Studio.</p></div>
+                                <div className="timeline_body"><p className="text-muted">Amazon Web Services, Redux, Python, Angular, Kotlin, C++, C, Java, Matlab.</p></div>
+                            </div>
+                        </li>
+                        <br/>
+                        <hr/>
+                        <br/>
+                        <li className="timeline_list cursor" data-aos="slide-right">
+                            <div className="timeline-panel">
+                                <div className="timeline-heading">
+                                    <h3 className=" Timeline_underline timeline_Date">Softwares and tools</h3>
+                                    <h4 className="subheading">Used softwares and tools</h4>
+                                </div>
+                                <div className="timeline_body"><p className="text-muted">Visual Studio Code, Postman, Android Studio, Google Sheets, Microsoft Office.</p></div>
                             </div>
                         </li>
                     </ul>

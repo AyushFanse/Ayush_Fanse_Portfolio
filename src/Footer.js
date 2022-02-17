@@ -11,8 +11,8 @@ function Footer(props) {
     return (
         <Box id="footerBody">
             {
-                MyData.map((mydata)=>(
-                    <Grid id="footerOut">
+                MyData.map((mydata,index)=>(
+                    <Grid id="footerOut" key={index}>
                         <ul>
                             <li>
                                 <div>

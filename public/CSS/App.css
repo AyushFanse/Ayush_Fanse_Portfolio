@@ -614,9 +614,6 @@
     width:85%;
     height:auto;
   }
-  .Tilt_Card{
-    margin: 0;
-  }
 .Mycontainer #box .imgBx
 {
   height: auto;
@@ -754,10 +751,23 @@
   max-width:100%;
   margin:auto;
   height:100%;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #ContactData #Contact_Footer{
   width:100%;
   height:100%;
+}
+@media (min-width:768px){
+  #ContactData{
+    height:60vh;
+  }
+}
+@media (max-width:768px){
+  #ContactData{
+    height:100%;
+  }
 }
 .contactDetails{
   letter-spacing:0.5px;

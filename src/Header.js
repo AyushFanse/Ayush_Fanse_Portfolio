@@ -29,16 +29,16 @@ window.addEventListener('DOMContentLoaded', event => {
       if(window.scrollY>=0 && window.scrollY<=550 ){
         Default_indicator(Home);
       }
-      if(window.scrollY>=3300){
+      if(window.scrollY>=3150){
         indicator(Contact);
       }
-      if(window.scrollY>=2300 && window.scrollY<=3200){
+      if(window.scrollY>=2500 && window.scrollY<=3150){
         indicator(Projects);
       }
-      if(window.scrollY>=1200 && window.scrollY<=2200  ){
+      if(window.scrollY>=1400 && window.scrollY<=2600  ){
         indicator(Skills);
       }
-      if(window.scrollY>=550 && window.scrollY<=1300 ){
+      if(window.scrollY>=550 && window.scrollY<=1500 ){
         indicator(About);
       }
       

@@ -17,8 +17,8 @@ function Contact() {
                 <Grid  id="ContactData">
                     <Grid id="Contact_Footer">
                         {
-                            MyData.map((mydata)=>(
-                                <Box id="Contact_footerBody" className="cursor">
+                            MyData.map((mydata, index)=>(
+                                <Box id="Contact_footerBody" className="cursor" key={index}>
                                     <Grid id="Contact_Info">
                                         <p className="contactDetails" id="FooterName" data-aos="slide-up"><span>Email :</span> &nbsp; <span>{mydata.email}</span></p>
                                         <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Contact No. :</span>&nbsp;<span>{mydata.number}</span></p>

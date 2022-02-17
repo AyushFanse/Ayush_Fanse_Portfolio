@@ -77,7 +77,7 @@ return (
                 {
                     MyProjects.map((project)=>(
                       <Box id="Cardcase" key={project.title}>
-                        <Tilt className="Tilt_Card cursor" style={{ background: 'rgb(0, 0, 0,0)',width: "100%",backdropFilter: "blur(15px)" ,borderRadius: "10px", margin: "30px 0",boxShadow: '0px 0px 0px 0px'}}>
+                        <Tilt className="Tilt_Card cursor" style={{ background: 'rgb(0, 0, 0,0)',width: "100%",backdropFilter: "blur(15px)" ,borderRadius: "10px", margin: "50px 0",boxShadow: '0px 0px 0px 0px'}}>
                             <div id="box"  data-aos="slide-up">
                                 <div className="imgBx">                                
                                     <img src={"Media/" + project.files[0].imgpath} alt="Profile_Image" id="project_Img"/>
