@@ -4,7 +4,7 @@
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
         "tools":"React-Native, React, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
         "discription":"In RECIPES website, one can share their recipes with others.",
-        "site_link":"https://recipes-website-app.herokuapp.com",
+        "site_link":"https://recipe-capstone-project.netlify.app/",
         "frontend":"https://github.com/AyushFanse/RECIPE-PROJECT",
         "backend":"https://github.com/AyushFanse/RECIPE-Backend"
     },
