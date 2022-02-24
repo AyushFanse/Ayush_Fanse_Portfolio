@@ -29,6 +29,9 @@ return (
         <Skills/>
         <Projects/>
         <Contact/>
+        <Box id="Copy__right">
+            <h6>© Created by Ayush_Fanse 2022 </h6>
+        </Box>
     </Box>
 );
 }
