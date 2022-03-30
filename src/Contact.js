@@ -22,8 +22,7 @@ function Contact() {
                                     <Grid id="Contact_Info">
                                         <p className="contactDetails" id="FooterName" data-aos="slide-up"><span>Email :</span> &nbsp; <span>{mydata.email}</span></p>
                                         <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Contact No. :</span>&nbsp;<span>{mydata.number}</span></p>
-                                        <p className="contactDetails" id="FooterName" data-aos="slide-up"> <span>Address :</span>&nbsp;<span> {mydata.address}</span></p>
-                                    </Grid>
+                                     </Grid>
                                     <Grid id="Contact_footerOut">
                                         <ul>
                                             <li data-aos="slide-right">
