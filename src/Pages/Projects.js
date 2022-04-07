@@ -1,10 +1,9 @@
 import React from 'react';
 import Tilt from 'react-vanilla-tilt';
-import { Grid, Box, Dialog, DialogTitle, DialogContent,Typography, DialogActions, IconButton } from '@mui/material';
-import CloseIcon from '@mui/icons-material/Close';
+import { Grid, Box, Dialog, DialogContent,Typography, DialogActions } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import PropTypes from 'prop-types';
-import MyProjects from './Data/Projects';
+import MyProjects from '../Data/Projects';
+import BootstrapDialogTitle from '../Components/BootstrapDialogTitle';
 
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
@@ -16,40 +15,6 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
     },
   }));
   
-const BootstrapDialogTitle = (props) => {
-  const { children, onClose, ...other } = props;
-
-  return (
-    <DialogTitle sx={{ mr: 7, p: 2, pl:3, fontFamily:'Montserrat', textTransform: "uppercase", fontWeight:700 }} {...other}>
-      {children}
-      {
-          onClose 
-        ? 
-        ( 
-          <IconButton
-          aria-label="close"
-          onClick={onClose}
-          sx={{
-            position: 'absolute',
-            right: 10,
-            top: 10,
-            color: (theme) => theme.palette.grey[500],
-          }}
-          >
-            <CloseIcon />
-          </IconButton>
-        ) 
-      : 
-        null}
-    </DialogTitle>
-  );
-};
-
-BootstrapDialogTitle.propTypes = {
-  children: PropTypes.node,
-  onClose: PropTypes.func.isRequired,
-};
-      
 
 function Projects(props) {
 

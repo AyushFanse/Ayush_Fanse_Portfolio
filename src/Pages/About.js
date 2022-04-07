@@ -8,7 +8,7 @@ function About() {
                 <h1 id="Title">About</h1>
             </Grid>
             <hr/>
-            <Box id="TimeLine">
+            <Box id="TimeLine" className='container'>
                 <Grid id="TimeLine_Out">
                     <ul className="timeline">
                         <li className="timeline_list cursor" data-aos="slide-right">
@@ -17,7 +17,7 @@ function About() {
                                     <h3 className=" Timeline_underline timeline_Date cursor">2017 - 2021</h3>
                                     <h4 className="subheading">Graduation</h4>
                                 </div>
-                                <div className="timeline_body"><p className="text-muted">I have completed my <span className="hightlight ">Bachelor Of Engineering</span> In <span className="hightlight ">Electronics and Telecommunication</span> from <span className="hightlight Timeline_underline">Sinhgad Institute of Technology and Science, Narhe</span> under <span className="hightlight Timeline_underline">Savitribai Phule Pune University</span>.</p></div>
+                                <div className="timeline_body"><p className="text-muted">I have completed my <span className="hightlight ">Bachelor Of Engineering</span> In <span className="hightlight ">Electronics and Telecommunication</span> under <span className="hightlight Timeline_underline">Savitribai Phule Pune University</span>.</p></div>
                             </div>
                         </li>
                         <br/>

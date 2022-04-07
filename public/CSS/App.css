@@ -30,6 +30,10 @@
   padding:0 20px;
   letter-spacing: 0.0625em;
 } 
+#fonts:hover{  
+  color:var(--parrot);
+  transform:translateY(3px);
+}
 #font{
   font-size:1.6rem;
   color:var(--parrot);
@@ -62,7 +66,7 @@
  position:absolute;
  height:4px;
  width:100%;
- background:var(--parrot);
+ background: linear-gradient(0deg, rgba(195,255,0,1) 0%, rgba(195,255,0,1) 45%, rgba(255,255,255,1) 100%);
  bottom:-8px;
  transition:0.5s;
  border-radius:4px; 
@@ -109,7 +113,7 @@
 #menu-appbar ul{
   background: var(--bg);
 }
-/*/--------------------------* Footer Of Portfolio *--------------------------/*/
+/*/--------------------------* Header Of Portfolio *--------------------------/*/
 #appBar{
   position: fixed; 
   background: rgba(255,255,255,0);
@@ -137,6 +141,9 @@
 }
 .Nav_Item:hover .links #Nav_links{  
   color:#ffffff;
+}
+.XLnav:hover{
+  color:var(--parrot);
 }
 /*/--------------------------* Home Of Portfolio *--------------------------/*/
 #HomeOut{
@@ -346,7 +353,7 @@
   align-items: center;
 }
 #footerOut ul{
-  width: 300px;
+  width: 400px;
   height: 100%;
   position:relative; 
   display: flex;
@@ -589,6 +596,13 @@
 	opacity: 1;
 	transform: translateY(0);
 	transition-delay:9.2s
+}  
+.DilogButton{
+  margin: 7px 30px;
+	padding: 0;
+  font-weight: 700;
+  text-transform: uppercase; 
+  font-family:'Montserrat', sans-serif
 }
 @media (min-width: 768px){
   .Mycontainer #box .content
@@ -614,65 +628,62 @@
     width:85%;
     height:auto;
   }
-.Mycontainer #box .imgBx
-{
-  height: auto;
-}
-#project_Img
-{
-	min-height: 260px;
-}
-.Mycontainer #box .imgBx div
-{
- display:none;
-}
-.Mycontainer #box
-{
-  height:auto;
-}
-.Mycontainer #box .content
-{
-	margin-top: 10px;
-}
-.Mycontainer #box .content h2,
-.Mycontainer #box .content h4,
-.Mycontainer #box .content p,
-.Mycontainer #box .content h5,
-.Mycontainer #box .content a
-{
-	opacity: 1;
-	transform: translateY(0px);
-}
-.Mycontainer #box .content h2
-{
-  font-size: 1.8rem;
-}
-.Mycontainer #box .content h4
-{
-  font-size: 1.3rem;
-  text-decoration: overline;
-}
-.Mycontainer #box .content p
-{
-  font-size: 1.2rem;
-}
-.Mycontainer #box .content h5
-{
-  font-size: 1.2rem;
-  margin: 16px 0;
-}
-.Mycontainer #box .content a
-{
-  font-size: 1.3rem;
-}
-}     
-.DilogButton{
-  margin: 7px 30px;
-	padding: 0;
-  font-weight: 700;
-  text-transform: uppercase; 
-  font-family:'Montserrat', sans-serif
-}
+  .Mycontainer #box .imgBx
+  {
+    height: auto;
+  }
+  #project_Img
+  {
+    min-height: 260px;
+  }
+  .Mycontainer #box .imgBx div
+  {
+  display:none;
+  }
+  .Mycontainer #box
+  {
+    height:auto;
+  }
+  .Mycontainer #box .content
+  {
+    margin-top: 10px;
+  }
+  .Mycontainer #box .content h2,
+  .Mycontainer #box .content h4,
+  .Mycontainer #box .content p,
+  .Mycontainer #box .content h5,
+  .Mycontainer #box .content a
+  {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .Mycontainer #box .content h2
+  {
+    font-size: 1.8rem;
+  }
+  .Mycontainer #box .content h4
+  {
+    font-size: 1.3rem;
+    text-decoration: overline;
+  }
+  .Mycontainer #box .content p
+  {
+    font-size: 1.2rem;
+  }
+  .Mycontainer #box .content h5
+  {
+    font-size: 1.2rem;
+    margin: 16px 0;
+  }
+  .Mycontainer #box .content a
+  {
+    font-size: 1.3rem;
+  }
+  /* .Tilt_Card{
+    display:none;
+  } */
+}   
+
 /*/--------------------------* Skills Of Portfolio *--------------------------/*/
 
 #skill-container{
@@ -759,16 +770,6 @@
   width:100%;
   height:100%;
 }
-@media (min-width:768px){
-  #ContactData{
-    height:60vh;
-  }
-}
-@media (max-width:768px){
-  #ContactData{
-    height:100%;
-  }
-}
 .contactDetails{
   letter-spacing:0.5px;
   font-weight: 600;
@@ -785,9 +786,8 @@
 }
 
 #Contact_footerOut{
-  width: 100px;
+  width: 20%;
   height:100%;
-  margin:auto;
 }
 
 #Contact_footerOut ul{
@@ -816,7 +816,7 @@
   color:var(--white);
 }
 #Contact_icons{
-  font-size: 48px;
+  font-size: 38px;
   color: var(--parrot);
   filter: drop-shadow(4px 4px 5px rgba(0, 0, 0, 0.3));
 }
@@ -861,7 +861,7 @@
   }
   @keyframes Contact_icons {
     0%{
-      transform: rotate(30deg)
+      transform: rotate(30deg);
     }
     100%{
       transform: rotate(-30deg);
@@ -869,12 +869,9 @@
   }
   
   .hover:hover #Contact_icons{
-    animation: Contact_icons_hover;
-  }
-  @keyframes Contact_icons_hover {
-    0%{
-      transform: rotate(0deg)
-    }
+    font-size:50px;
+    margin-top:-12px;
+    animation: none;
   }
 }
 
@@ -958,4 +955,58 @@
   color:var(--parrot);
   box-shadow:none;
   cursor: default;
+}
+
+/*-----------------------------* CONTACT *-----------------------------*/
+.contactTilt{
+  background: rgb(0, 0, 0,0);
+  width: 100%;
+}
+input[type=text],input[type=email], select, textarea {
+  width: 100%;
+  min-width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height:100%;
+  margin:10px;
+}
+
+.buttonSubmit {
+  background-color: var(--parrot);
+  width:30%;
+  color: var(--bg);
+  padding: 12px 20px;
+  border: 2px solid var(--parrot);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buttonWait {
+  width:30%;
+  color: var(--bg);
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width:768px){
+  .buttonSubmit {
+    width:90%;
+  }
+}
+
+.buttonSubmit:hover {
+  background-color: var(--bg);
+  border:2px solid var(--parrot);
+  color: var(--parrot);
+}
+
+.buttonSubmitOut{
+  padding:20px 0;
+  width:100%;
+  display:flex;
+  justify-content: center;
 }
