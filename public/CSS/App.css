@@ -1001,9 +1001,9 @@ input[type=text],input[type=email], select, textarea {
   justify-content: center;
 }
 
-/* @media (max-width: 768px){
-  #desktop{
+@media (min-width: 768px){
+  #mobile{
     display:none;
     opacity: 0;
   }
-} */
+}

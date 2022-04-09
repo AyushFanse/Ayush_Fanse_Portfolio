@@ -48,7 +48,17 @@ function ContactIcon(props) {
                 </li>
                 <li data-aos="slide-right" id="desktop">
                     <div>
-                        <a className="links hover" rel="noreferrer" download="download" href={MyData[0].email} target="_blank">
+                        <a className="links hover" rel="noreferrer" download="download" href={`https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=${MyData[0].email}`} target="_blank">
+                            <AlternateEmail id="Contact_icons" />
+                        </a>
+                    </div>
+                    <h6 id="FooterName">
+                        Email
+                    </h6>
+                </li>
+                <li data-aos="slide-right" id="mobile">
+                    <div>
+                        <a className="links hover" rel="noreferrer" download="download" href={`mailto:${MyData[0].email}`} target="_blank">
                             <AlternateEmail id="Contact_icons" />
                         </a>
                     </div>
