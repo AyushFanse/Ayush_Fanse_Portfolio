@@ -357,6 +357,7 @@
   height: 100%;
   text-align: center;
   margin: auto;
+  padding-top:45px; 
 }
 #footerOut ul li h6{
   margin: auto;
@@ -999,3 +1000,10 @@ input[type=text],input[type=email], select, textarea {
   display:flex;
   justify-content: center;
 }
+
+/* @media (max-width: 768px){
+  #desktop{
+    display:none;
+    opacity: 0;
+  }
+} */

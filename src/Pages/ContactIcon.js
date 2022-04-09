@@ -46,7 +46,7 @@ function ContactIcon(props) {
                         WhatsApp
                     </h6>
                 </li>
-                <li data-aos="slide-right">
+                <li data-aos="slide-right" id="desktop">
                     <div>
                         <a className="links hover" rel="noreferrer" download="download" href={MyData[0].email} target="_blank">
                             <AlternateEmail id="Contact_icons" />
