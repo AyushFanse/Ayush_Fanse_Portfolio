@@ -153,6 +153,16 @@
   justify-content:space-between;
   flex-direction:column;
 }
+#HomeLayout{
+  width: 100%;
+  height: 100vh;
+  display: flex; 
+}
+#HomeLayout div{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
 #homeLeft{
   height:auto;
   width:100%;
@@ -235,33 +245,21 @@
     display:none;
   }
 }
+@media(min-width:768px) {
+  #HomeLayout div{
+    margin:auto 30px;
+  }
+  }
 @media(min-width:690px) {
 #HomeOut #HomeLayout{
-  width: 100%;
-  height: 100vh;
-  display: flex; 
   justify-content:space-between;
   }
 }
-#HomeOut #HomeLayout div{
-  display: flex;
-  justify-content:center;
-  align-items:center;
-  margin:auto;
-}
 @media(max-width:690px) {
   #HomeLayout{
-  width: 100%;
-  height: 100vh;
-  display:flex ;
   justify-content:center;
   flex-direction:column-reverse;
   }
-  #HomeOut #HomeLayout div{
-    display: flex;
-    justify-content:center;
-    align-items:center;
-  } 
   #homeLeft{
     height:50%
   }
@@ -293,7 +291,7 @@
     align-items: center;
   }
   #icons{  
-    font-size: 2.3rem;
+    font-size: 2.0rem;
   }
 }
 @media(max-width:1010px) {
@@ -335,15 +333,6 @@
   }
 }
 /*/--------------------------* Footer Of Portfolio *--------------------------/*/
-#footerBody{
-  width: 100%;
-  height: 100%;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top:30px;
-}
 #footerOut{
   width: 100%;
   height: 100%;
@@ -351,16 +340,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
 }
 #footerOut ul{
-  width: 400px;
+  width: 100%;
   height: 100%;
   position:relative; 
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding-left: 0;
+  justify-content:space-between;
   list-style: none; 
+  align-items:center;
+  padding:0px; 
 }
 #footerOut ul li{
   width: 100%;
@@ -409,7 +399,7 @@
   #footerOut ul li h6{
     font-size:0.8rem;
     width: max-content;
-    margin: auto 20px;
+    margin: auto;
   }
 }
 /*/--------------------------* Project Of Portfolio *--------------------------/*/
@@ -832,15 +822,13 @@
     flex-direction:row;    
     justify-content:space-between;
   }
-  #Contact_footerOut ul li{
-    padding: 0px 20px;
-  }
   #ContactData #Contact_Footer{
     margin:auto;
   }
   #Contact_footerOut{
     width: 100%;
     margin-top:40px;
+    display: inline-table;
   }
   #Contact_footerOut ul li h6{
     opacity:1;
