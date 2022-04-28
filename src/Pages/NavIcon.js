@@ -1,5 +1,4 @@
 import React from 'react';
-import { Grid, Box } from '@mui/material';
 import { GitHub, LinkedIn, Article, ConnectWithoutContact } from '@mui/icons-material';
 import MyData from '../Data/ConnectMe_data';
 
@@ -39,7 +38,7 @@ function Footer(props) {
                 </li>
                 <li data-aos="slide-up">
                     <div>
-                        <a className="links" rel="noreferrer" download="Resume" href={'mailto:ayush.fanse@gmail.com'} target="_blank">
+                        <a className="links" rel="noreferrer" download="Resume" href={MyData[0].resume} target="_blank">
                             <Article id="icons"/>
                         </a>
                     </div>

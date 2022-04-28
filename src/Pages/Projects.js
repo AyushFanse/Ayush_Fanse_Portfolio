@@ -82,6 +82,7 @@ return (
             </DialogContent>
             <DialogActions sx={{display:'flex', justifyContent: 'space-evenly'}} >                
               { RowData.frontend ? <a href={RowData.frontend} target="_blank"  rel="noreferrer" className="DilogButton" id="viewlink">FrontEnd</a> : null }
+              { RowData.admin ? <a href={RowData.admin} target="_blank"  rel="noreferrer" className="DilogButton" id="viewlink">AdminPage</a> : null }
               { RowData.backend ? <a href={RowData.backend} target="_blank"  rel="noreferrer" className="DilogButton" id="viewlink">BackEnd</a> : null }
               { RowData.site_link ? <a href={RowData.site_link} target="_blank"  rel="noreferrer" className="DilogButton" id="viewlink">Visit Website</a> : null }
             </DialogActions>
