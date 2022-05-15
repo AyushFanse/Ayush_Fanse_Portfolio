@@ -5,7 +5,7 @@
         "files":[{"imgpath":"Memories/Memories(1).png"}],
         "tools":"React-Native, React, CSS, MUI, BootStrap, NodeJS, Cloudinary, JavaScript, NPM, MongoDB Atlas",
         "discription":"This Webdite is built to store your Memorable moments",
-        "site_link":"https://memorable-memories.netlify.app/",
+        "site_link":"https://memorable-memories.netlify.app",
         "frontend":"https://github.com/AyushFanse/Memories_Frontend",
         "backend":"https://github.com/AyushFanse/Memories_Backend"
     },
@@ -14,7 +14,7 @@
         "files":[{"imgpath":"Recipes/Recipes(1).png"},{"imgpath":"Recipes/Recipes(2).png"},{"imgpath":"Recipes/Recipes(3).png"}],
         "tools":"React-Native, React, CSS, MUI, BootStrap, NodeJS, JavaScript, NPM, MongoDB Atlas",
         "discription":"In RECIPES website, one can share their recipes with others.",
-        "site_link":"recipes-webapplication.netlify.app",
+        "site_link":"https://recipes-webapplication.netlify.app",
         "frontend":"https://github.com/AyushFanse/RECIPE-PROJECT",
         "backend":"https://github.com/AyushFanse/RECIPE-Backend"
     },
