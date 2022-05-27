@@ -1,36 +1,35 @@
 [
   {
     "title": "Memories",
-    "date":"April 22 - May 22",
+    "date": "Apr 22 - May 22",
     "files": [{ "imgpath": "https://i.ibb.co/NK8fCLY/Memories-1.png" }],
     "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Cloudinary, etc.",
-    "features":"Download, Share, Preview, etc.",
+    "features": "Download, Share, Preview, etc.",
     "discription": "This is a personal drive-like website that I have built where you can systematically store your memorable photos.",
     "site_link": "https://memorable-memories.netlify.app",
     "frontend": "https://github.com/AyushFanse/Memories_Frontend",
     "backend": "https://github.com/AyushFanse/Memories_Backend"
   },
   {
-    "title": "Recipes",
-    "date":"December 22 - January 22",
+    "title": "Weather Forecasting",
+    "date": "Mar 22 - Apr 22",
     "files": [
-      { "imgpath": "https://i.ibb.co/jWbBQPX/Recipes-1.png" },
-      { "imgpath": "https://i.ibb.co/yg0X34V/Recipes-2.png" },
-      { "imgpath": "https://i.ibb.co/0CtjHcC/Recipes-3.png" }
+      { "imgpath": "https://i.ibb.co/bzK3CP0/Weather-Forecasting-2.png" },
+      { "imgpath": "https://i.ibb.co/9hcWwV7/Weather-Forecasting-1.png" }
     ],
-    "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Cloudinary, etc.",
-    "features":"Likes & Dislikes, Saved & Unsaved, Comments, etc.",
-    "discription": "This is a Social Media Website that I have built where one can share their recipes with others.",
-    "site_link": "https://recipes-webapplication.netlify.app",
-    "frontend": "https://github.com/AyushFanse/RECIPE-PROJECT",
-    "backend": "https://github.com/AyushFanse/RECIPE-Backend"
+    "discription": "This is a Weather Forecasting Website that I have built where it shows Live Weather Forecasting.",
+    "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Weather APIs, etc.",
+    "features": "Search, Live weather forecasting, etc.",
+    "site_link": "https://live-weather-forecasting.netlify.app",
+    "frontend": "https://github.com/AyushFanse/WeatherFFront",
+    "backend": "https://github.com/AyushFanse/WeatherFBackEnd"
   },
   {
     "title": "Mobo Shop",
-    "date":"January 22 - March 22",
+    "date": "Jan 22 - Mar 22",
     "files": [{ "imgpath": "https://i.ibb.co/ZJ1WtHZ/Moboshop.png" }],
     "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Rozarpay, Cloudinary, etc.",
-    "features":"Add to cart, Payment gateway, etc.",
+    "features": "Add to cart, Payment gateway, etc.",
     "discription": "This is an E-Commerce Website that I have built only for mobile phones.",
     "site_link": "https://moboshop.netlify.app",
     "frontend": "https://github.com/AyushFanse/E-commerce-MoboShop-Frontend",
@@ -38,17 +37,18 @@
     "admin": "https://github.com/AyushFanse/Mobo-Shop-Admin"
   },
   {
-    "title": "Weather Forecasting",
-    "date":"March 22 - April 22",
+    "title": "Recipes",
+    "date": "Dec 21 - Jan 22",
     "files": [
-      { "imgpath": "https://i.ibb.co/9hcWwV7/Weather-Forecasting-1.png" },
-      { "imgpath": "Weather-Forecasting/Weather-Forecasting(2).png" }
+      { "imgpath": "https://i.ibb.co/jWbBQPX/Recipes-1.png" },
+      { "imgpath": "https://i.ibb.co/yg0X34V/Recipes-2.png" },
+      { "imgpath": "https://i.ibb.co/0CtjHcC/Recipes-3.png" }
     ],
-    "discription": "This is a Weather Forecasting Website that I have built where it shows Live Weather Forecasting.",
-    "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Weather APIs, etc.",
-    "features":"Search, Live weather forecasting, etc.",
-    "site_link": "https://live-weather-forecasting.netlify.app",
-    "frontend": "https://github.com/AyushFanse/WeatherFFront",
-    "backend": "https://github.com/AyushFanse/WeatherFBackEnd"
+    "skills": "JavaScript, Recat.JS, Node.JS, Express.JS, MongoDB, CSS, JSX, MUI, Bootstrap, Npm libraries, Cloudinary, etc.",
+    "features": "Likes & Dislikes, Saved & Unsaved, Comments, etc.",
+    "discription": "This is a Social Media Website that I have built where one can share their recipes with others.",
+    "site_link": "https://recipes-webapplication.netlify.app",
+    "frontend": "https://github.com/AyushFanse/RECIPE-PROJECT",
+    "backend": "https://github.com/AyushFanse/RECIPE-Backend"
   }
 ]

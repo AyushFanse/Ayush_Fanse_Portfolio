@@ -21,7 +21,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-function Projects(props) {
+const Projects = () => {
   const [open, setOpen] = React.useState(false);
   const [RowData, setRowData] = React.useState([]);
 
@@ -104,7 +104,13 @@ function Projects(props) {
       >
         <BootstrapDialogTitle onClose={handleClose}>
           {RowData.title}
-          <Typography sx={{ fontFamily: "Montserrat", fontSize: "0.7rem", lineHeight: 0.7 }}>
+          <Typography
+            sx={{
+              fontFamily: "Montserrat",
+              fontSize: "0.7rem",
+              lineHeight: 0.7,
+            }}
+          >
             {RowData.date}
           </Typography>
         </BootstrapDialogTitle>
@@ -184,6 +190,6 @@ function Projects(props) {
       </BootstrapDialog>
     </Box>
   );
-}
+};
 
 export default Projects;
