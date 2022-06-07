@@ -1136,6 +1136,10 @@
   width: 100%;
 }
 
+.form {
+  padding: 0px 50px;
+}
+
 input[type=text],
 input[type=email],
 select,
@@ -1170,12 +1174,6 @@ textarea {
   cursor: pointer;
 }
 
-@media (max-width:768px) {
-  .buttonSubmit {
-    width: 90%;
-  }
-}
-
 .buttonSubmit:hover {
   background-color: var(--bg);
   border: 2px solid var(--parrot);
@@ -1194,11 +1192,19 @@ textarea {
     display: none;
     opacity: 0;
   }
-}
 
-@media (min-width: 768px) {
   #mobile {
     display: none;
     opacity: 0;
   }
+
+  .form {
+    padding: 0px;
+  }
+
+  .buttonSubmit {
+    width: 90%;
+  }
 }
+
+@media (min-width: 768px) {}
