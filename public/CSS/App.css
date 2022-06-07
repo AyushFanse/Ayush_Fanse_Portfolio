@@ -1142,6 +1142,7 @@ select,
 textarea {
   width: 97%;
   min-width: 97%;
+  max-width: 97%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
