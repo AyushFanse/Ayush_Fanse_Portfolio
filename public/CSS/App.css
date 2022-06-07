@@ -286,6 +286,7 @@
 @media(min-width:768px) {
   #HomeLayout div {
     margin: auto 30px;
+    max-height: 350px;
   }
 }
 
