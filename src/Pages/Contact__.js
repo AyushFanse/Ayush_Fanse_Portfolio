@@ -15,6 +15,7 @@ const Contact__ = () => {
     if (
       contactForm.current.name.value &&
       contactForm.current.email.value &&
+      contactForm.current.subject.value &&
       contactForm.current.message.value
     ) {
       emailjs
@@ -59,7 +60,13 @@ const Contact__ = () => {
         {error ? <Error msg={error} /> : null}
         <form ref={contactForm} onSubmit={sendEmail}>
           <label htmlFor='name'>Name</label>
-          <input type='text' id='name' name='name' placeholder='Your name...' />
+          <input 
+            type='text' 
+            id='name' 
+            name='name' 
+            placeholder='Your name...' 
+            required 
+          />
 
           <label htmlFor='email'>Email</label>
           <input
@@ -67,15 +74,26 @@ const Contact__ = () => {
             id='email'
             name='email'
             placeholder='Your email...'
+            required
           />
 
-          <label htmlFor='message'>Subject</label>
+          <label htmlFor='subject'>Subject</label>
+          <input
+            type='text'
+            id='subject'
+            name='subject'
+            placeholder='Subject'
+            required
+          />
+
+          <label htmlFor='message'>Message</label>
           <textarea
             className='textArea'
             id='message'
             rows='7'
             name='message'
             placeholder='Write your message...'
+            required
           />
 
           <div className='buttonSubmitOut'>
