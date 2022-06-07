@@ -82,7 +82,7 @@ const Contact__ = () => {
             type='text'
             id='subject'
             name='subject'
-            placeholder='Subject'
+            placeholder='Subject...'
             required
           />
 
