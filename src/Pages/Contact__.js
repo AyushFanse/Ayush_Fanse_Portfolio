@@ -58,7 +58,7 @@ const Contact__ = () => {
       <Box>
         {message ? <Message msg={message} /> : null}
         {error ? <Error msg={error} /> : null}
-        <form ref={contactForm} onSubmit={sendEmail}>
+        <form ref={contactForm} onSubmit={sendEmail} style={{ padding: "0px 50px" }}>
           <label htmlFor='name'>Name</label>
           <input 
             type='text' 
