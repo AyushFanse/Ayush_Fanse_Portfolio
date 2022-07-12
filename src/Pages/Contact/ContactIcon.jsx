@@ -6,7 +6,7 @@ import {
   WhatsApp,
   AlternateEmail,
 } from "@mui/icons-material";
-import MyData from "../Data/ConnectMe_data";
+import MyData from "../../Data/ConnectMe_data";
 
 const ContactIcon = () => {
   return (

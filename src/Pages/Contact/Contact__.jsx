@@ -1,8 +1,8 @@
 import React, { useState, useRef } from "react";
 import { Box } from "@mui/material";
 import emailjs from "emailjs-com";
-import Message from "./Message";
-import Error from "./Error";
+import Message from "../../Components/Alert/Message";
+import Error from "../Errors/Error";
 
 const Contact__ = () => {
   const contactForm = useRef();

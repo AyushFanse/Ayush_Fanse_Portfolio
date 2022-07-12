@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid } from "@mui/material";
-import Footer from "./NavIcon";
-import Blob from "../Components/Blob";
+import Footer from "../../Components/NavIcons/NavIcon";
+import Blob from "../../Components/ImageBlob/Blob";
 
 const HomeComp = () => {
   return (

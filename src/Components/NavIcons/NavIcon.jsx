@@ -5,7 +5,7 @@ import {
   Article,
   ConnectWithoutContact,
 } from "@mui/icons-material";
-import MyData from "../Data/ConnectMe_data";
+import MyData from "../../Data/ConnectMe_data.json";
 
 const Footer = () => {
   return (

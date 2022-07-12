@@ -7,7 +7,7 @@ import {
   Container,
   Button,
 } from "@mui/material";
-import MDnav from "../Components/MDnav";
+import MDnav from ".//MDnav";
 
 const Header = () => {
   React.useEffect(() => {
@@ -29,23 +29,23 @@ const Header = () => {
       }
       if (window.scrollY >= 0 && window.scrollY <= 550) {
         Default_indicator(Home);
-        document.title =  `Portfolio | Home`;
+        document.title =  ` Home | Portfolio`;
       }
       if (window.scrollY >= 3150) {
         indicator(Contact);
-        document.title =  `Portfolio | Contact`;
+        document.title =  ` Contact | Portfolio`;
       }
       if (window.scrollY >= 2500 && window.scrollY <= 3150) {
         indicator(Projects);
-        document.title =  `Portfolio | Project`;
+        document.title =  ` Project | Portfolio`;
       }
       if (window.scrollY >= 1400 && window.scrollY <= 2600) {
         indicator(Skills);
-        document.title =  `Portfolio | Skills`;
+        document.title =  ` Skills | Portfolio`;
       }
       if (window.scrollY >= 550 && window.scrollY <= 1500) {
         indicator(About);
-        document.title =  `Portfolio | About`;
+        document.title =  ` About | Portfolio`;
       }
 
       function indicator(e) {

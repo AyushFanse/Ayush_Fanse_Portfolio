@@ -15,9 +15,9 @@ const About = () => {
               <div className='timeline-panel'>
                 <div className='timeline-heading'>
                   <h3 className=' Timeline_underline timeline_Date'>
-                    2021 - 2022
+                    Aug, 2021 - May, 2022
                   </h3>
-                  <h4 className='subheading'>Present</h4>
+                  <h4 className='subheading'>Course</h4>
                 </div>
                 <div className='timeline_body'>
                   <p className='text-muted'>

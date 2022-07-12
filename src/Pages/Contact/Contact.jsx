@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Box } from "@mui/material";
-import ContactForm from "./Contact__.js";
+import ContactForm from "./Contact__.jsx";
 import ContactIcon from "./ContactIcon";
 
 const Contact = () => {

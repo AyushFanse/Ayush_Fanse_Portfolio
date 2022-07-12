@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Box } from "@mui/material";
-import My_Skills from "../Data/Skills";
+import My_Skills from "../../Data/Skills";
 
 const Skills = () => {
   return (
