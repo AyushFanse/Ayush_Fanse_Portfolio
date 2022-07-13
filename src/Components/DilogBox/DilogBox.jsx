@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import DialogTitle from './DialogTitle';
+import './dilog.css';
 
 const DilogBox = ({ RowData, handleClose, open }) => {
 
@@ -25,13 +26,12 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                 onClose={handleClose}
                 aria-labelledby='customized-dialog-title'
                 open={open}
-                sx={{ backdropFilter: "blur(5px)" }}
+                sx={{ backdropFilter: "blur(5px)", fontFamily: "Montserrat" }}
             >
                 <DialogTitle onClose={handleClose}>
                     {RowData.title}
                     <Typography
                         sx={{
-                            fontFamily: "Montserrat",
                             fontSize: "0.7rem",
                             lineHeight: 0.7,
                         }}
@@ -40,13 +40,13 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                     </Typography>
                 </DialogTitle>
                 <DialogContent dividers>
-                    <Typography gutterBottom sx={{ p: 1, fontFamily: "Montserrat" }}>
+                    <Typography gutterBottom sx={{ p: 1 }}>
                         {RowData.discription}
                     </Typography>
                     {RowData.skills ? (
                         <div>
                             <strong>Skills</strong>
-                            <Typography gutterBottom sx={{ p: 1, fontFamily: "Montserrat" }}>
+                            <Typography gutterBottom sx={{ p: 1 }}>
                                 {RowData.skills}
                             </Typography>
                         </div>
@@ -54,7 +54,7 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                     {RowData.features ? (
                         <div>
                             <strong>Features</strong>
-                            <Typography gutterBottom sx={{ p: 1, fontFamily: "Montserrat" }}>
+                            <Typography gutterBottom sx={{ p: 1 }}>
                                 {RowData.features}
                             </Typography>
                         </div>

@@ -7,6 +7,7 @@ import {
   AlternateEmail,
 } from "@mui/icons-material";
 import MyData from "../../Data/ConnectMe_data";
+import './contact.css';
 
 const ContactIcon = () => {
   return (

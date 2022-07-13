@@ -7,7 +7,8 @@ import {
   Container,
   Button,
 } from "@mui/material";
-import MDnav from ".//MDnav";
+import MDnav from "./MDnav";
+import './navbar.css';
 
 const Header = () => {
   React.useEffect(() => {

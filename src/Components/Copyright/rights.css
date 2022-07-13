@@ -1,0 +1,12 @@
+#Copy__right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: var(--parrot);
+    box-shadow: none;
+    cursor: default;
+  }

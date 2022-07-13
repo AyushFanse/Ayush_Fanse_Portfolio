@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import emailjs from "emailjs-com";
 import Message from "../../Components/Alert/Message";
 import Error from "../Errors/Error";
+import './contact.css';
 
 const Contact__ = () => {
   const contactForm = useRef();

@@ -6,6 +6,7 @@ import {
   ConnectWithoutContact,
 } from "@mui/icons-material";
 import MyData from "../../Data/ConnectMe_data.json";
+import './navigation.css'
 
 const Footer = () => {
   return (

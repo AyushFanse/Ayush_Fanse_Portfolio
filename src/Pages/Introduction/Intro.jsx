@@ -2,6 +2,7 @@ import React from "react";
 import { Grid } from "@mui/material";
 import Footer from "../../Components/NavIcons/NavIcon";
 import Blob from "../../Components/ImageBlob/Blob";
+import './intro.css'
 
 const HomeComp = () => {
   return (

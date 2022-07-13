@@ -1,19 +1,19 @@
 import React from "react";
-import Tilt from "react-vanilla-tilt";
 import { Grid, Box } from "@mui/material";
 import MyProjects from "../../Data/Projects";
 import DilogBox from "../../Components/DilogBox/DilogBox";
+import './project.css';
 
 const Projects = () => {
   const [open, setOpen] = React.useState(false);
-  const [RowData, setRowData] = React.useState([]);
+  const [RowData, setRowData] = React.useState('');
 
   const handleClickOpen = (row_data) => {
     setRowData(row_data);
     setOpen(true);
   };
   const handleClose = () => {
-    setRowData([]);
+    setRowData('');
     setOpen(false);
   };
 
@@ -25,58 +25,36 @@ const Projects = () => {
             <h1 id='Title'>Projects</h1>
           </Grid>
           <hr />
-          <div id='ProjectOut'>
-            <div className='Mycontainer'>
-              {MyProjects.map((project) => (
-                <Box id='Cardcase' key={project.title}>
-                  <Tilt
-                    className='Tilt_Card cursor'
-                    style={{
-                      background: "rgb(0, 0, 0,0)",
-                      width: "100%",
-                      backdropFilter: "blur(15px)",
-                      borderRadius: "10px",
-                      margin: "50px 0",
-                      boxShadow: "0px 0px 0px 0px",
-                    }}
-                  >
-                    <div id='box' data-aos='slide-up'>
-                      <div className='imgBx'>
-                        <img
-                          src={project.files[0].imgpath}
-                          alt='Profile_Image'
-                          id='project_Img'
-                        />
-                        <div>
-                          <h2>{project.title}</h2>
-                        </div>
-                      </div>
-                      <div className='content'>
-                        <h2>{project.title}</h2>
-                        <h4>Tech Used</h4>
-                        <p>{project.skills}</p>
-                        <h5
-                          onClick={() => {
-                            handleClickOpen(project);
-                          }}
-                          className='Read_More'
-                        >
-                          Read More
-                        </h5>
-                        <a
-                          href={project.site_link}
-                          rel='noreferrer'
-                          target='_blank'
-                          id='viewlink'
-                        >
-                          Visit Website
-                        </a>
-                      </div>
+          <div className='ProjectOut  flex'>
+            {MyProjects.map((project) => (
+              <div class="CardOut" key={project.title}>
+                <div class="Card">
+                  <img
+                    src={project.files[0].imgpath}
+                    alt=""
+                  />
+                  <div class="CardData flex">
+                    <h1>{project.title}</h1>
+                    <h6>{project.date}</h6>
+                    <div class="Navigation flex">
+                      <h3
+                        className='Timeline_underline'
+                        onClick={() => {
+                          handleClickOpen(project);
+                        }}>Read More</h3>
+                      <a
+                        title='Website'
+                        href={project.site_link}
+                        rel='noreferrer'
+                        target='_blank'
+                        class="material-symbols-rounded" aria-label="Website">
+                        ads_click
+                      </a>
                     </div>
-                  </Tilt>
-                </Box>
-              ))}
-            </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </Box>
       </Box>
