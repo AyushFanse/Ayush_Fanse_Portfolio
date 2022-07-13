@@ -4,11 +4,11 @@ import {
   Box,
   Toolbar,
   Typography,
-  Container,
-  Button,
+  Container
 } from "@mui/material";
+import LDnav from "./LDnav";
 import MDnav from "./MDnav";
-import './navbar.css';
+import './navbar.css'
 
 const Header = () => {
   React.useEffect(() => {
@@ -103,48 +103,8 @@ const Header = () => {
                 </Typography>
               </a>
             </Box>
-            <Box
-              sx={{ flexGrow: 0, display: { xs: "none", md: "flex" } }}
-              className='menu_list'
-            >
-              <a href='#About' className='links' rel='noreferrer'>
-                <Button
-                  sx={{ display: "block" }}
-                  id='fonts'
-                  className='XLnav About'
-                >
-                  About
-                </Button>
-              </a>
-              <a href='#Skills' className='links' rel='noreferrer'>
-                <Button
-                  sx={{ display: "block" }}
-                  id='fonts'
-                  className='XLnav Skills'
-                >
-                  Skills
-                </Button>
-              </a>
-              <a href='#Projects' className='links' rel='noreferrer'>
-                <Button
-                  sx={{ display: "block" }}
-                  id='fonts'
-                  className='XLnav Projects'
-                >
-                  Projects
-                </Button>
-              </a>
-              <a href='#contact' className='links' rel='noreferrer'>
-                <Button
-                  sx={{ display: "block" }}
-                  id='fonts'
-                  className='XLnav contact'
-                >
-                  Contact Me
-                </Button>
-              </a>
-            </Box>
-            <MDnav sx={{ display: { xs: "flex", md: "none", lg: "none" } }} />
+            <LDnav className='menu_list_lg' />
+            <MDnav className='menu_list_sm' />
           </Toolbar>
         </Container>
       </AppBar>

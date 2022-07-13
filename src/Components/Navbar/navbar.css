@@ -54,6 +54,24 @@
     background: var(--bg);
 }
 
+@media(min-width:900px) {
+    .menu_list_lg {
+        display: flex;
+    }
+    .menu_list_sm{
+        display: none;
+    }
+}
+
+@media(max-width:900px) {
+    .menu_list_lg {
+        display: none;
+    }
+    .menu_list_sm{
+        display: flex;
+    }
+}
+
 @media(max-width:768px) {
     .Nav_Item .links #Nav_links {
         color: #ffffff;

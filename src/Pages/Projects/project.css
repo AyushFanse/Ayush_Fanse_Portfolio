@@ -1,6 +1,8 @@
 #Projects {
     height: auto;
     width: 100%;
+    padding-top: 50px;
+    margin-bottom: -40px;
 }
 
 .ProjectOut {

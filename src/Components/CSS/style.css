@@ -37,13 +37,13 @@
   height: 100%;
 }
 
-.flex {
-  display: flex;
-  align-items: center;
-}
-
 .cursor {
   cursor: default;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
 }
 
 #fonts {
@@ -96,3 +96,4 @@
     font-size: 1.9rem;
   }
 }
+

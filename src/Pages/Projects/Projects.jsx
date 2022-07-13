@@ -25,18 +25,18 @@ const Projects = () => {
             <h1 id='Title'>Projects</h1>
           </Grid>
           <hr />
-          <div className='ProjectOut  flex'>
+          <div className='ProjectOut flex'>
             {MyProjects.map((project) => (
-              <div class="CardOut" key={project.title}>
-                <div class="Card">
+              <div className="CardOut" key={project.title}>
+                <div className="Card">
                   <img
                     src={project.files[0].imgpath}
                     alt=""
                   />
-                  <div class="CardData flex">
+                  <div className="CardData flex">
                     <h1>{project.title}</h1>
                     <h6>{project.date}</h6>
-                    <div class="Navigation flex">
+                    <div className="Navigation flex">
                       <h3
                         className='Timeline_underline'
                         onClick={() => {
@@ -47,7 +47,7 @@ const Projects = () => {
                         href={project.site_link}
                         rel='noreferrer'
                         target='_blank'
-                        class="material-symbols-rounded" aria-label="Website">
+                        className="material-symbols-rounded" aria-label="Website">
                         ads_click
                       </a>
                     </div>
