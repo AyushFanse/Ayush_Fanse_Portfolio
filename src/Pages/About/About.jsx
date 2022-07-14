@@ -102,7 +102,7 @@ const About = () => {
                 </div>
                 <div className='timeline_body'>
                   <p className='text-muted'>
-                    Visual Studio Code, Postman, AWS, Adobe Photoshop, Canva, etc.
+                    GitHub, Git Bash, Netlify, Heroku, Visual Studio Code, Postman, AWS, Adobe Photoshop, Canva, etc.
                   </p>
                 </div>
                 <div className='timeline-heading'>
