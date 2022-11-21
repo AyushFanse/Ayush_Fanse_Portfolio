@@ -1,7 +1,6 @@
 #appBar {
     position: fixed;
     background: rgba(255, 255, 255, 0);
-    color: var(--font);
     box-shadow: none;
     padding: 0.4rem 0;
 }

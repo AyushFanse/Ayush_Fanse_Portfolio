@@ -78,11 +78,11 @@ const About = () => {
                 </div>
                 <div className='timeline_body'>
                   <p className='text-muted'>
-                    HTML, CSS, JavaScript, Python, C, C++, Kotlin, Java, etc.
+                    HTML, CSS, JavaScript, Kotlin, Java, etc.
                   </p>
                 </div>
                 <div className='timeline-heading'>
-                  <h4 className='timeline_Date Timeline_underline'>Freamworks</h4>
+                  <h4 className='timeline_Date Timeline_underline'>Frameworks</h4>
                 </div>
                 <div className='timeline_body'>
                   <p className='text-muted'>

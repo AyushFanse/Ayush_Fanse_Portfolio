@@ -7,9 +7,9 @@ import {
 } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import DialogTitle from './DialogTitle';
-import './dilog.css';
+import './dialog.css';
 
-const DilogBox = ({ RowData, handleClose, open }) => {
+const DialogBox = ({ RowData, handleClose, open }) => {
 
     const BootstrapDialog = styled(Dialog)(({ theme }) => ({
         "& .MuiDialogContent-root": {
@@ -41,7 +41,7 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                 </DialogTitle>
                 <DialogContent dividers>
                     <Typography gutterBottom sx={{ p: 1 }}>
-                        {RowData.discription}
+                        {RowData.description}
                     </Typography>
                     {RowData.skills ? (
                         <div>
@@ -72,8 +72,8 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                             href={RowData.frontend}
                             target='_blank'
                             rel='noreferrer'
-                            className='DilogButton'
-                            id='viewlinkCard'
+                            className='DialogButton'
+                            id='viewLinkCard'
                         >
                             FrontEnd
                         </a>
@@ -83,8 +83,8 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                             href={RowData.admin}
                             target='_blank'
                             rel='noreferrer'
-                            className='DilogButton'
-                            id='viewlinkCard'
+                            className='DialogButton'
+                            id='viewLinkCard'
                         >
                             AdminPage
                         </a>
@@ -94,8 +94,8 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                             href={RowData.backend}
                             target='_blank'
                             rel='noreferrer'
-                            className='DilogButton'
-                            id='viewlinkCard'
+                            className='DialogButton'
+                            id='viewLinkCard'
                         >
                             BackEnd
                         </a>
@@ -105,8 +105,8 @@ const DilogBox = ({ RowData, handleClose, open }) => {
                             href={RowData.site_link}
                             target='_blank'
                             rel='noreferrer'
-                            className='DilogButton'
-                            id='viewlinkCard'
+                            className='DialogButton'
+                            id='viewLinkCard'
                         >
                             Visit Website
                         </a>
@@ -117,4 +117,4 @@ const DilogBox = ({ RowData, handleClose, open }) => {
     );
 }
 
-export default DilogBox;
+export default DialogBox;

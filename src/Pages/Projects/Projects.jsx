@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Box } from "@mui/material";
 import MyProjects from "../../Data/Projects";
-import DilogBox from "../../Components/DilogBox/DialogBox";
+import DialogBox from "../../Components/DialogBox/DialogBox";
 import './project.css';
 
 const Projects = () => {
@@ -58,7 +58,7 @@ const Projects = () => {
           </div>
         </Box>
       </Box>
-      <DilogBox RowData={RowData} handleClose={handleClose} open={open} />
+      <DialogBox RowData={RowData} handleClose={handleClose} open={open} />
     </>
   );
 };

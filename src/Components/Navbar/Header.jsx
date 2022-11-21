@@ -92,16 +92,15 @@ const Header = () => {
           <Toolbar>
             <p id='marker' data-aos='slide-left'></p>
             <Box sx={{ flexGrow: 1 }}>
-              <a href='#HOME' className='links' rel='noreferrer'>
                 <Typography
                   variant='h6'
                   component='div'
                   id='font'
-                  className='nav_active'
+                  className='nav_active pointer'
+                  onClick={()=>{window.scrollTo(0, 0)}}
                 >
                   PORTFOLIO
                 </Typography>
-              </a>
             </Box>
             <LDnav className='menu_list_lg' />
             <MDnav className='menu_list_sm' />

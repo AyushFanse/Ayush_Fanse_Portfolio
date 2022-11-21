@@ -2,10 +2,9 @@
 
 /*/--------------------------* THEAM Colours *--------------------------/*/
 :root {
-  --bg: #27262b;
-  --font: #ffc800;
-  --white: #ffffff;
-  --parrot: #c3ff00;
+  --bg: hsl(252, 6%, 16%);
+  --white: hsl(0, 0%, 100%);
+  --parrot: hsl(74, 100%, 50%);
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -39,6 +38,10 @@
 
 .cursor {
   cursor: default;
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .flex{
