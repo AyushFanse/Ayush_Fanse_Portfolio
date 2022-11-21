@@ -1,7 +1,7 @@
 import React from "react";
 import { Grid, Box } from "@mui/material";
 import MyProjects from "../../Data/Projects";
-import DilogBox from "../../Components/DilogBox/DilogBox";
+import DilogBox from "../../Components/DilogBox/DialogBox";
 import './project.css';
 
 const Projects = () => {

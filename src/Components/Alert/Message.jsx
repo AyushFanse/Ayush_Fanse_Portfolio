@@ -38,7 +38,7 @@ const Message = ({ msg }) => {
               severity='success'
               sx={{ width: "100%" }}
             >
-              Thnak You {msg}! I’ll contact you soon.
+              Thank You {msg}! I’ll contact you soon.
             </Alert>
           </Snackbar>
         </Stack>
